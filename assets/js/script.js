@@ -14,9 +14,19 @@ $(function(){
             
         }
 
-
-
-
     });
   
+    // cambio de color
+    $(window).scroll(function(){
+        if ($("#menu").offset().top >400) {
+            $("#menu").addClass("bg-info");
+            
+        } else {
+            $("#menu").removeClass("bg-info");
+            
+        }
+
+    });
+
+
 });
