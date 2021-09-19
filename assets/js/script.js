@@ -28,5 +28,7 @@ $(function(){
 
     });
 
+    // Popover
+    $('[data-toggle="popover"]').popover()
 
 });
